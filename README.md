@@ -113,7 +113,7 @@ After `just destroy`, the next `just all` reattaches the data disks, and the app
 | `infra/k8s/` | The Kubernetes manifests (templates Ansible fills in) and Grafana's dashboard |
 | `infra/mgmt/`, `infra/justfile`, `infra/build-images.sh` | The management container, the cloud deployment's commands, the image build |
 | `infra/evidence/`, `infra/loadtest/` | The persistence tests, and the load test of the report's evaluation |
-| `data/` | The cleaned catalogue as a `pg_dump` (`movies_dump.sql`), the raw CSVs and how they were cleaned (`schema.sql`) |
+| `data/` | The cleaned catalogue as a `pg_dump` (`movies_dump.sql`), the CSV it was built from (`raw/movies_metadata.csv`) and how it was cleaned (`schema.sql`). The rest of [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) isn't used and isn't in the repository |
 | `docs/` | The diagrams (editable `.excalidraw` sources, with PNG exports for the READMEs and PDF exports for the report) and the screenshots |
 | `report/` | The project report (LaTeX) and its PDF, `project-g17.pdf` |
 | `justfile` | The local commands `just local-first-up`, `just local-up` and `just local-down` |

@@ -1,0 +1,7 @@
+# The rest of The Movies Dataset (https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset).
+# Nothing uses these files (see schema.sql: only movies_metadata.csv is), so they aren't tracked.
+raw/ratings.csv
+raw/credits.csv
+raw/keywords.csv
+raw/links.csv
+raw/the-movies-dataset.zip
